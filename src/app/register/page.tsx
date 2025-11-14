@@ -28,20 +28,25 @@ const formSchema = z.object({
   password: z.string().min(6, {
     message: "La contraseña debe tener al menos 6 caracteres.",
   }),
+  confirmPassword: z.string()
+}).refine(data => data.password === data.confirmPassword, {
+    message: "Las contraseñas no coinciden.",
+    path: ["confirmPassword"],
 });
 
-export default function LoginPage() {
+export default function RegisterPage() {
   const router = useRouter();
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
       email: "",
       password: "",
+      confirmPassword: "",
     },
   });
 
   function onSubmit(values: z.infer<typeof formSchema>) {
-    // Simulate a successful login
+    // Simulate a successful registration and login
     console.log(values);
     router.push("/browse");
   }
@@ -67,13 +72,13 @@ export default function LoginPage() {
           <Card className="bg-black/75 border-border backdrop-blur-sm">
             <CardHeader className="items-center text-center pt-8">
               <Logo className="h-10 w-auto text-primary mb-4" />
-              <h1 className="text-2xl font-bold tracking-tight text-white">Iniciar Sesión</h1>
+              <h1 className="text-2xl font-bold tracking-tight text-white">Crea una cuenta</h1>
             </CardHeader>
             <CardContent className="p-8">
               <Form {...form}>
                 <form
                   onSubmit={form.handleSubmit(onSubmit)}
-                  className="space-y-6"
+                  className="space-y-4"
                 >
                   <FormField
                     control={form.control}
@@ -110,18 +115,36 @@ export default function LoginPage() {
                       </FormItem>
                     )}
                   />
+                   <FormField
+                    control={form.control}
+                    name="confirmPassword"
+                    render={({ field }) => (
+                      <FormItem>
+                        <FormLabel className="text-gray-300">Confirmar Contraseña</FormLabel>
+                        <FormControl>
+                          <Input
+                            type="password"
+                            placeholder="••••••••"
+                            {...field}
+                            className="bg-zinc-800 border-zinc-700 text-white placeholder:text-zinc-500 focus:bg-zinc-700"
+                          />
+                        </FormControl>
+                        <FormMessage />
+                      </FormItem>
+                    )}
+                  />
                   <Button type="submit" className="w-full text-lg h-12 mt-8">
-                    Iniciar Sesión
+                    Registrarse
                   </Button>
                 </form>
               </Form>
               <p className="mt-8 text-center text-sm text-zinc-400">
-                ¿Eres nuevo en CineStream?{' '}
+                ¿Ya tienes una cuenta?{' '}
                 <Link
-                  href="/register"
+                  href="/"
                   className="font-medium text-primary hover:underline"
                 >
-                  Regístrate ahora
+                  Inicia sesión
                 </Link>
                 .
               </p>

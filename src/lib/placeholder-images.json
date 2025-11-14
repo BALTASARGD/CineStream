@@ -1,3 +1,118 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "login-bg",
+      "description": "Abstract cinematic background with dark tones and light streaks.",
+      "imageUrl": "https://images.unsplash.com/photo-1641556230409-3e18f24980fc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxkYXJrJTIwY2luZW1hfGVufDB8fHx8MTc2MzA4NjExMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dark cinema"
+    },
+    {
+      "id": "hero-1",
+      "description": "A spaceship flying through a nebula.",
+      "imageUrl": "https://images.unsplash.com/photo-1707587537670-532241e5c9c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c3BhY2VzaGlwJTIwbmVidWxhfGVufDB8fHx8MTc2Mjk4MDIwM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "spaceship nebula"
+    },
+    {
+      "id": "hero-2",
+      "description": "A knight standing on a cliff overlooking a fantasy kingdom.",
+      "imageUrl": "https://images.unsplash.com/photo-1486123820439-1a74aeb502cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmYW50YXN5JTIwa2luZ2RvbXxlbnwwfHx8fDE3NjMwMzYzODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fantasy kingdom"
+    },
+    {
+      "id": "hero-3",
+      "description": "A detective looking at a clue board in a dimly lit room.",
+      "imageUrl": "https://images.unsplash.com/photo-1636056471685-1cfdfa9d2e4b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxkZXRlY3RpdmUlMjBib2FyZHxlbnwwfHx8fDE3NjMwODYxMTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "detective board"
+    },
+    {
+      "id": "poster-1",
+      "description": "Poster for a sci-fi movie with an astronaut.",
+      "imageUrl": "https://images.unsplash.com/photo-1579388654549-1f4e8c79b5a4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxhc3Ryb25hdXQlMjBwb3N0ZXJ8ZW58MHx8fHwxNzYzMDg2MTEzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "astronaut poster"
+    },
+    {
+      "id": "poster-2",
+      "description": "Poster for a fantasy movie with a dragon.",
+      "imageUrl": "https://images.unsplash.com/photo-1648224012486-288f9ffe630a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxkcmFnb24lMjBwb3N0ZXJ8ZW58MHx8fHwxNzYzMDg2MTEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dragon poster"
+    },
+    {
+      "id": "poster-3",
+      "description": "Poster for a mystery thriller with a question mark.",
+      "imageUrl": "https://images.unsplash.com/photo-1593876212271-83c4a4188d5b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxteXN0ZXJ5JTIwcG9zdGVyfGVufDB8fHx8MTc2MzA4NjExMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mystery poster"
+    },
+    {
+      "id": "poster-4",
+      "description": "Poster for a romantic comedy with a couple laughing.",
+      "imageUrl": "https://images.unsplash.com/photo-1500771967326-9b2f6200d1c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjb3VwbGUlMjBsYXVnaGluZ3xlbnwwfHx8fDE3NjI5NzQ1NTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "couple laughing"
+    },
+    {
+      "id": "poster-5",
+      "description": "Poster for an action movie with an explosion.",
+      "imageUrl": "https://images.unsplash.com/photo-1606004898841-706417f4e7e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxleHBsb3Npb24lMjBhY3Rpb258ZW58MHx8fHwxNzYzMDg2MTEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "explosion action"
+    },
+    {
+      "id": "poster-6",
+      "description": "Poster for a horror movie with a spooky house.",
+      "imageUrl": "https://images.unsplash.com/photo-1542071519-65d063713e4e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8aGF1bnRlZCUyMGhvdXNlfGVufDB8fHx8MTc2Mjk3MzIzN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "haunted house"
+    },
+    {
+      "id": "poster-7",
+      "description": "Poster for a drama film with a thoughtful character.",
+      "imageUrl": "https://images.unsplash.com/photo-1629306788641-238e75d5e840?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0aG91Z2h0ZnVsJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzYzMDg2MTEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "thoughtful portrait"
+    },
+    {
+      "id": "poster-8",
+      "description": "Poster for an animated kids movie with colorful characters.",
+      "imageUrl": "https://images.unsplash.com/photo-1515041219749-89347f83291a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjYXJ0b29uJTIwY2hhcmFjdGVyc3xlbnwwfHx8fDE3NjMwNDg2MTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cartoon characters"
+    },
+    {
+      "id": "poster-9",
+      "description": "Poster for a documentary about nature.",
+      "imageUrl": "https://images.unsplash.com/photo-1486170483317-22b130d84a2f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxuYXR1cmUlMjBkb2N1bWVudGFyeXxlbnwwfHx8fDE3NjMwMjYyNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "nature documentary"
+    },
+    {
+      "id": "poster-10",
+      "description": "Poster for a historical epic with ancient soldiers.",
+      "imageUrl": "https://images.unsplash.com/photo-1616497886560-d8b057f3a4e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhbmNpZW50JTIwc29sZGllcnN8ZW58MHx8fHwxNzYzMDg2MTEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ancient soldiers"
+    },
+    {
+      "id": "poster-11",
+      "description": "Poster for a cyberpunk series with neon city lights.",
+      "imageUrl": "https://images.unsplash.com/photo-1561344640-2453889cde5b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y3liZXJwdW5rJTIwY2l0eXxlbnwwfHx8fDE3NjI5ODYwMTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cyberpunk city"
+    },
+    {
+      "id": "poster-12",
+      "description": "Poster for a Western with a cowboy on a horse.",
+      "imageUrl": "https://images.unsplash.com/photo-1721358848921-b2481c2b4f78?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjb3dib3klMjBob3JzZXxlbnwwfHx8fDE3NjMwNDE3MjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cowboy horse"
+    },
+    {
+      "id": "poster-13",
+      "description": "Poster for a superhero movie.",
+      "imageUrl": "https://images.unsplash.com/photo-1608272841063-67f50df421c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzdXBlcmhlcm8lMjBjb21pY3xlbnwwfHx8fDE3NjMwODYxMTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "superhero comic"
+    },
+    {
+      "id": "poster-14",
+      "description": "Poster for a musical with dancing figures.",
+      "imageUrl": "https://images.unsplash.com/photo-1675972422491-b6a1fc530071?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxkYW5jaW5nJTIwbXVzaWNhbHxlbnwwfHx8fDE3NjMwODYxMTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dancing musical"
+    },
+    {
+      "id": "poster-15",
+      "description": "Poster for a spy thriller.",
+      "imageUrl": "https://images.unsplash.com/photo-1602518872490-2887dfdb5535?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c3B5JTIwdGhyaWxsZXJ8ZW58MHx8fHwxNzYzMDMzNzg2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "spy thriller"
+    }
+  ]
 }
